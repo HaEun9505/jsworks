@@ -28,13 +28,13 @@
             }
         }
 
-        var p1 = new Player("손흥민", 31, flase);
-        var p2 = new Player("안산", 21, flase);
+        var p1 = new Player("손흥민", 31, true);
+        var p2 = new Player("안산", 21, false);
         var p3 = new Player("추신수", 40, true);
-
+        
         //배열 객체로 관리
         var player = [p1, p2, p3];
-        document.write("선수 명단  : ");
+        document.write("선수 명단 : ");
         for(let i = 0; i < player.length; i++){
             document.write(player[i].name + " ");
         }
