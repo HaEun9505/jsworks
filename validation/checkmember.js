@@ -19,7 +19,6 @@ function checkMember(){
         alert("이름은 필수 입력 항목입니다.");
         form.name.select()
         return false;
-
     }
     else{
         form.submit();  //폼이 전송됨
